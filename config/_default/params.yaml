@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: custom
-  theme_night: custom
+  theme_day: minimal
+  theme_night: minimal
   font: minimal
   font_size: L
 
@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
+    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -32,12 +32,14 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: false
+    align: l
+    show_logo: true
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
+
+# Site footer
 
 footer:
   copyright:
@@ -53,15 +55,14 @@ footer:
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
 
 features:
   syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
+    theme_light: github-light
+    theme_dark: dracula
   math:
     enable: false
   privacy_pack:
@@ -86,7 +87,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: ''
+    provider: wowchemy
     algolia:
       app_id: ''
       api_key: ''
@@ -97,9 +98,17 @@ features:
     api_key: ''
     zoom: 15
 
+# Extensions
+
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true
