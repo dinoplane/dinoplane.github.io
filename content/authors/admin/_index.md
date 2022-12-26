@@ -1,8 +1,8 @@
 ---
 title: Arrian Chi
 role: ""
-bio: My research interests include game development, generative design,
-  compilers, and artificial intelligence.
+bio: My interests include game development, generative design, compilers,
+  graphics, and artificial intelligence.
 superuser: true
 status:
   icon: ☕️
