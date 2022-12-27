@@ -148,8 +148,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Games
+          tag: Game
         - name: Other
           tag: Demo
     design:
@@ -158,7 +158,12 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: true
+  # - block: experience
+  #   id: lala
 
+  #   content: 
+  #     title: LALALA
+  #     url: '#lalala'
   - block: experience
     id: experience
     content:
@@ -180,10 +185,11 @@ sections:
           date_start: '2022-09-22'
           date_end: '2022-12-14'
           description: |2-
-              Responsibilities include:
+            Graded for an graduate compiler course of 20+ students while auditing
 
-              * Grading
-              * Scripting
+            Responsibilities included:
+              * Writing scripts to help run student code submissions and find errors
+              * Developing keys for grading exams
               
         - title: Undergrad Mentor/Grader
           company: University of California - Santa Cruz
@@ -192,16 +198,22 @@ sections:
           location: California
           date_start: '2016-01-01'
           date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          description: |2-
+            Tutored/graded for an undergraduate compiler course of 60+ students
 
-        - title: Undergrad Mentor/Grader
-          company: University of California - Santa Cruz
+            Responsibilities included:
+              * Reading and running tests on student code submissions
+              * Developing keys for grading exams
+              * Running 2 hour office hours on a semi-weekly basis 
+
+        - title: Instructor
+          company: Mathnasium
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2020-04-01'
+          date_end: '2019-09-01'
+          description: Tutored 40+ K-12 students in mathematics
     design:
       columns: '2'
   # - block: markdown
