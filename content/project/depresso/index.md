@@ -1,12 +1,13 @@
 ---
 title: Depresso
-summary: An example of linking directly to an external project website using `external_link`.
+summary: For my final project for a generative design class, our team of 3 game design students
+          developed a maze generator with procedurally generated elements.
 tags:
   - Demo
-date: "2016-04-27T00:00:00Z"
+date: "2022-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: https://github.com/dinoplane/cmpm147-depresso
 
 image:
   caption: Photo by Toa Heftiba on Unsplash
