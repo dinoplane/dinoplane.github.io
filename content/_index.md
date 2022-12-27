@@ -196,8 +196,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2022-03-01'
+          date_end: '2022-06-28'
           description: |2-
             Tutored/graded for an undergraduate compiler course of 60+ students
 
@@ -211,8 +211,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: California
-          date_start: '2020-04-01'
-          date_end: '2019-09-01'
+          date_start: '2019-09-17'
+          date_end: '2020-04-26'
           description: Tutored 40+ K-12 students in mathematics
     design:
       columns: '2'
