@@ -161,7 +161,7 @@ sections:
   # - block: experience
   #   id: lala
 
-  #   content: 
+  #   content:
   #     title: LALALA
   #     url: '#lalala'
   - block: experience
@@ -190,7 +190,7 @@ sections:
             Responsibilities included:
               * Writing scripts to help run student code submissions and find errors
               * Developing keys for grading exams
-              
+
         - title: Undergrad Mentor/Grader
           company: University of California - Santa Cruz
           company_url: ''
@@ -204,7 +204,7 @@ sections:
             Responsibilities included:
               * Reading and running tests on student code submissions
               * Developing keys for grading exams
-              * Running 2 hour office hours on a semi-weekly basis 
+              * Running 2 hour office hours on a semi-weekly basis
 
         - title: Instructor
           company: Mathnasium
@@ -277,7 +277,7 @@ sections:
       #   Best way to con
       # Contact (add or remove contact options as necessary)
       email: cactonberry@gmx.com
-      phone: 408-386-5347
+      # phone: --
       # appointment_url: 'https://calendly.com'
       # address:
       #   street: 450 Serra Mall

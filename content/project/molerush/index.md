@@ -9,6 +9,6 @@ date: "2022-04-27T00:00:00Z"
 external_link: https://aliendino.itch.io/mole-rush
 
 image:
-  caption: Illustration from gameplay
+  caption: Collect as many gems as you can!
   focal_point: Smart
 ---

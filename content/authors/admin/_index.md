@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Arrian Chi
+title: Alien Dino
 
 # Full name (for SEO)
-first_name: Arrian
-last_name: Chi
+first_name: Alien
+last_name: Dino
 
 # Status emoji
 status:
@@ -69,13 +69,13 @@ social:
     link: https://github.com/dinoplane/
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/arrian-chi-571219210/
+    # link: https://www.linkedin.com/in/arrian-chi-571219210/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv # findmelater
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -84,5 +84,5 @@ email: ''
 highlight_name: true
 ---
 
-Hello, I'm Arrian! I'm currently a senior studying Computer Science: Game Design. I will graduate on June 2023 and pursue a Computer Science M.S. in graduate school.
+Hello, I'm Alien! I'm currently a senior studying Computer Science: Game Design. I will graduate on June 2023 and pursue a Computer Science M.S. in graduate school.
 {style="text-align: justify;"}
