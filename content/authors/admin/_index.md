@@ -73,9 +73,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv # findmelater
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv # findmelater
+    icon_pack: ai
+    link: uploads/b.txt
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -84,5 +84,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello, I'm Alien! I'm currently a senior studying Computer Science: Game Design. I will graduate on June 2023 and pursue a Computer Science M.S. in graduate school.
+Hello, I'm Arrian! I'm currently a senior studying Computer Science: Game Design. I will graduate on June 2023 and pursue a Computer Science M.S. in graduate school. [A post]({{< relref "/post/clowngirl" >}})
 {style="text-align: justify;"}
+
+
