@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://dinoplane.github.io/sitemap.xml
