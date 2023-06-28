@@ -155,9 +155,9 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
+      view: masonry
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+      # flip_alt_rows: true
   # - block: experience
   #   id: lala
 
@@ -177,6 +177,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Undergrad Mentor
+          company: University of California - Santa Cruz
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2023-03-01'
+          date_end: '2023-06-18'
+          description: |2-
+            Tutored for an undergraduate compiler course of 80+ students
+
+            Responsibilities included:
+              * Organizing 2 hour office hours on a semi-weekly basis (although I arrange extra)
+              * Providing answers for both technical and conceptual problems
+              * Reporting back to the professor on collective student progression in the course
+              * I also went out of my way to help grade the exams
+
         - title: Grader
           company: University of California - Santa Cruz
           company_url: ''
@@ -273,7 +289,9 @@ sections:
     content:
       title: Contact
       # subtitle:
-      # text: |-
+      text: |-
+          Best way to contact me is via email.
+
       #   Best way to con
       # Contact (add or remove contact options as necessary)
       email: cactonberry@gmx.com

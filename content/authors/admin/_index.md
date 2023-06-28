@@ -69,7 +69,7 @@ social:
     link: https://github.com/dinoplane/
   - icon: linkedin
     icon_pack: fab
-    # link: https://www.linkedin.com/in/arrian-chi-571219210/
+    # link: https://www.linkedin.com/in/aliendino
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -84,7 +84,10 @@ email: ''
 highlight_name: true
 ---
 
-Hello, I'm Arrian! I'm currently a senior studying Computer Science: Game Design. I will graduate on June 2023 and pursue a Computer Science M.S. in graduate school. [A post]({{< relref "/post/clowngirl" >}})
-{style="text-align: justify;"}
+Hello, I'm Alien! I'm a software developer who likes creating games. Other topics I'm interested in include
+artificial intelligence, graphics, compilers, and parallel programming.
 
 
+
+Scroll down to see cool projects I've worked on!
+{style="text-align: center; "}
