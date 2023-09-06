@@ -180,7 +180,7 @@ sections:
         - title: Undergrad Mentor
           company: University of California - Santa Cruz
           company_url: ''
-          company_logo: org-x
+          company_logo: ucsc
           location: California
           date_start: '2023-03-01'
           date_end: '2023-06-18'
@@ -196,7 +196,7 @@ sections:
         - title: Grader
           company: University of California - Santa Cruz
           company_url: ''
-          company_logo: org-gc
+          company_logo: ucsc
           location: California
           date_start: '2022-09-22'
           date_end: '2022-12-14'
@@ -210,7 +210,7 @@ sections:
         - title: Undergrad Mentor/Grader
           company: University of California - Santa Cruz
           company_url: ''
-          company_logo: org-x
+          company_logo: ucsc
           location: California
           date_start: '2022-03-01'
           date_end: '2022-06-28'
@@ -225,7 +225,7 @@ sections:
         - title: Instructor
           company: Mathnasium
           company_url: ''
-          company_logo: org-x
+          company_logo: mathnasium
           location: California
           date_start: '2019-09-17'
           date_end: '2020-04-26'
