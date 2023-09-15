@@ -10,6 +10,6 @@ date: "2023-06-18T00:00:00Z"
 external_link: https://geminiduality.itch.io/one-last-job
 
 image:
-  caption: Photo by ME!
+  caption: LOOT THEM ALL AHAHAHAH!
   focal_point: Smart
 ---

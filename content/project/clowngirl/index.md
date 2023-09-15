@@ -9,6 +9,6 @@ date: "2022-10-27T00:00:00Z"
 external_link: https://aliendino.itch.io/the-amazing-clown-girl
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Hmm... What happens when she PANICS?
   focal_point: Smart
 ---

@@ -2,6 +2,7 @@
 title: My page
 type: landing
 id: 'landing'
+draft: true
 
 sections:
   - block: markdown

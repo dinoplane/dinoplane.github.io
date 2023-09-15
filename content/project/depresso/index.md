@@ -10,6 +10,6 @@ date: "2022-07-01T00:00:00Z"
 external_link: https://github.com/dinoplane/cmpm147-depresso
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Guide the pig to the correct student!
   focal_point: Smart
 ---

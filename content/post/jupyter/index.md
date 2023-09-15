@@ -4,6 +4,8 @@ subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Learn how to blog in Academic using Jupyter notebooks
 authors:
   - admin
+# Is this an unpublished draft?
+draft: true
 tags: []
 categories: []
 projects: []

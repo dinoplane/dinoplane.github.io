@@ -9,6 +9,6 @@ date: "2022-04-27T00:00:00Z"
 external_link: https://aliendino.itch.io/mole-rush
 
 image:
-  caption: Collect as many gems as you can!
+  caption: Collect as many gems as you can! (Illustration by Dalia De La Luz)
   focal_point: Smart
 ---

@@ -9,6 +9,6 @@ date: "2022-09-27T00:00:00Z"
 external_link: https://jodagon-drago.itch.io/stop-the-music
 
 image:
-  caption: The leader has come out!
+  caption: The hellish maestro has come out!
   focal_point: Smart
 ---

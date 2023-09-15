@@ -7,7 +7,7 @@ tags:
 date: "2023-06-26T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.shadertoy.com/view/mdScDz
+external_link: https://www.shadertoy.com/user/aliendino
 image:
   caption: Shadertoy Icon
   focal_point: Smart
