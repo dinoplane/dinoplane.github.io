@@ -70,13 +70,13 @@ social:
     link: https://github.com/dinoplane/
   - icon: linkedin
     icon_pack: fab
-    # link: https://www.linkedin.com/in/aliendino
+    link: https://www.linkedin.com/in/aliendino
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv # findmelater
-    icon_pack: ai
-    link: uploads/b.txt
+  # - icon: cv # findmelater
+  #   icon_pack: ai
+  #   link: uploads/b.txt
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -84,11 +84,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
 Hello, I'm Alien! I'm a software developer who likes creating games. Other topics I'm interested in include
 artificial intelligence, graphics, compilers, and parallel programming.
-
-
 
 Scroll down to see cool projects I've worked on!
 {style="text-align: center; "}

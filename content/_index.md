@@ -105,6 +105,13 @@ sections:
   #   design:
   #     columns: '2'
 
+  # - block: about.biography
+  #   id: bl
+  #   content:
+  #     title: Biography
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+
   - block: collection
     id: posts
     content:
