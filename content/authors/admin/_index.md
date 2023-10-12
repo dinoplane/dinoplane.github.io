@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alien Dino
+title: Arrian Chi
 
 # Full name (for SEO)
-first_name: Alien
-last_name: Dino
+first_name: Arrian
+last_name: Chi
 
 # Status emoji
 status:
@@ -22,11 +22,12 @@ role: Software Engineer | Game Programmer | Alien
 #     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include game development, compilers, generative design, and artificial intelligence.
+bio: My research interests include game development, computer graphics, compilers, and artificial intelligence.
 
 # Interests to show in About widget
 interests:
   - Game Development
+  - Computer Graphics
   - Compilers
   - Generative Design
   - Artificial Intelligence
