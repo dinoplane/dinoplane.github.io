@@ -35,15 +35,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MS in Computer Science
+      institution: University of California Los Angeles
+      year: 2025
+    - course: "BS in Computer Science: Game Design"
+      institution: University of California Santa Cruz
+      year: 2023
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -84,8 +82,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hello, I'm Alien! I'm a software developer who likes creating games. Other topics I'm interested in include
-artificial intelligence, graphics, compilers, and parallel programming.
+Hello, I'm Alien! I'm a software engineer who likes creating games. Other topics I'm interested in include
+artificial intelligence, graphics, compilers, and parallel programming. I'm currently pursuing a Computer Science M.S. degree at UCLA~
 
 Scroll down to see cool projects I've worked on!
 {style="text-align: center; "}

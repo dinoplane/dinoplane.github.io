@@ -242,6 +242,7 @@ sections:
           description: Tutored 40+ K-12 students in mathematics
     design:
       columns: '2'
+
   # - block: markdown
   #   content:
   #     title: Gallery
