@@ -27,6 +27,7 @@
             "line": {
                 "shape": "linear"
             },
+            "marker" : {"color":"#A8B6CC"},
             "mode": "lines+markers",
             "name": "16-threaded"
         },
@@ -57,6 +58,7 @@
             "line": {
                 "shape": "linear"
             },
+            "marker" : {"color":"#1F449C"},
             "mode": "lines+markers",
             "name": "16-threaded + spatial hashmap"
         },
@@ -80,6 +82,7 @@
             "line": {
                 "shape": "linear"
             },
+            "marker" : {"color":"#EEBAB4"},
             "mode": "lines+markers",
             "name": "Single threaded"
         },
@@ -103,6 +106,7 @@
             "line": {
                 "shape": "linear"
             },
+            "marker" : {"color":"#F05039"},
             "mode": "lines+markers",
             "name": "Single threaded + spatial hashmap"
         }
@@ -123,7 +127,8 @@
         "yaxis": {
             "title": {
                 "text": "Time (μs)"
-            }
+            },
+            "type": "log"
         },
         "height": 400,
         "width": 700

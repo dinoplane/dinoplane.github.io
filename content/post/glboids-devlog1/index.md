@@ -140,7 +140,15 @@ I chose the latter route because I was kinda pressed on time (it was in the mids
 
 To implement the spatial hash grid, we start by initializing it with the tile dimensions and the grid dimensions. I opted for lazy creation if any new tiles needed to be created. With initialization out of the way, there are four main parts we must consider:
 
-- Adding a boid to a tile: We can calculate the tiles (a boid can sit on a border) the boid is in from its position using a simple formula. ![HI](key_pic.png) Using a struct (a `SpatialEntry`) to encapsulate all necessary information for easy access later, we find the top right front tile and the bottom right back tile and add the entry into the corresponding sets.
+- Adding a boid to a tile: We can calculate the tiles (a boid can sit on a border) the boid is in from its position using a simple formula.
+
+```cpp
+glm::ivec3 SpatialMap::_key(glm::vec3 pos){
+    return  glm::sign(pos)*glm::floor(glm::abs(pos /(unit_dims)));
+}
+```
+
+ Using a struct (a `SpatialEntry`) to encapsulate all necessary information for easy access later, we find the top right front tile and the bottom right back tile and add the entry into the corresponding sets.
 
 - Removing a boid from a tile: Given that we already stored the boid's containing tiles in the entry struct before, we can iterate through the bounding tiles and remove the boid from them.
 
