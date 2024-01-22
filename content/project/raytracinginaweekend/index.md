@@ -1,6 +1,6 @@
 ---
 title: Raytracing in One Weekend Project
-summary: A very simple ray tracer based on the first book of the [Raytracing in One Weekend](https://raytracing.github.io/) book series. Although it works, it's pretty slow because it runs on the GPU... maybe... just maybe... some improvements will be made in the future.
+summary: A very simple ray tracer based on the first book of the [Raytracing in One Weekend](https://raytracing.github.io/) book series. Although it works, it's pretty slow because it runs on the CPU... maybe... just maybe... some improvements will be made in the future.
 
 tags:
   - Demo
