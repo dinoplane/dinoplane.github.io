@@ -138,7 +138,7 @@ There are 2 main ways to solve the problem, octrees or hash grids. Both divide t
 
 I chose the latter route because I was kinda pressed on time (it was in the midst of the new quarter when I was extremely busy).
 
-To implement the spatial hash grid, we start by initializing it with the tile dimensions and the grid dimensions. I opted for lazy creation if any new tiles needed to be created. With initialization out of the way, there are four main parts we must consider:
+To implement the spatial hash grid, we start by initializing it with the tile dimensions and the grid dimensions. ~~I opted for lazy creation if any new tiles needed to be created.~~(I avoided lazy creation because it was giving me headaches with concurrency).  With initialization out of the way, there are four main parts we must consider:
 
 - Adding a boid to a tile: We can calculate the tiles (a boid can sit on a border) the boid is in from its position using a simple formula.
 
@@ -183,7 +183,7 @@ Yes, I know there is tiling with this method. And I feel the lighting on the wat
 
 2. Implement an Octree. Even though an octree is harder to implement, it doesn't hurt to try right?
 
-3. Spatial Hash Grid Thread Optimization: Currently the hash grid is thread safe. ... Ok I kinda cheated by just locking the entire map whenever we need to update it. The reason I did that was because I ran into deadlock issues when trying to implement locks per key. This leaves threads that stalling when their updates will not influence each other.
+3. Spatial Hash Grid Thread Optimization: Currently the hash grid is thread safe. ... Ok I kinda cheated by just locking the entire map whenever we need to update it. The reason I did that was because I ran into deadlock issues when trying to implement locks per key/tile. This leaves threads that stalling when their updates will not influence each other (or do they...).
 
 4. Spatial Hash Grid Unit Dimensions: I haven't tweaked the unit dimensions of the spatial hash grid much, but I believe that there is merit to doing so. I wonder if there is any way to simulate over and over again to get the values I want....
 
