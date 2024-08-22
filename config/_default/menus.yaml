@@ -4,14 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '#about'
+  - name: Projects
+    url: '#projects'
     weight: 10
   - name: Posts
     url: 'postlanding'
     weight: 20
-  - name: Projects
-    url: '#projects'
+
+  - name: Home
+    url: '#about'
     weight: 30
   - name: Experience
     url: '#experience'

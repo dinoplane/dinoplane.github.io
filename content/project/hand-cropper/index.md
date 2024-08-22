@@ -11,7 +11,7 @@ date: "2024-06-24T00:00:00Z"
 
 
 image:
-  caption: You only have 60 seconds to harvest...
+  caption: Cropped out!
   focal_point: Smart
 
 links:

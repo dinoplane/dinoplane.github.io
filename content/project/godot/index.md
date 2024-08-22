@@ -3,6 +3,7 @@ title: Godot
 summary: As I used Godot (an open-source game engine), I found some issues I would like fixed. So I contributed to Godot (and open source) for the first time. And I still am!
 
 tags:
+  - Featured
   - Other
 
 date: "2023-05-14T00:00:00Z"

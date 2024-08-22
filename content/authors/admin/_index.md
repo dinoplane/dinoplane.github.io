@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Software Engineer | Game Programmer | Alien
+role: Software Engineer | Graphics Enthusiast | Alien
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -82,8 +82,7 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hello, I'm Alien! I'm a software engineer who likes creating games. Other topics I'm interested in include
-artificial intelligence, graphics, compilers, and parallel programming. I'm currently pursuing a Computer Science M.S. degree at UCLA~
+Hello, I'm Arrian! I'm a software engineer who interested in optimization, graphics, C++ and artificial intelligence.
 
 Scroll down to see cool projects I've worked on!
 {style="text-align: center; "}

@@ -1,6 +1,6 @@
 ---
 title: The Amazing Clown Girl
-summary: A blocky clown girl implemented using WEBGL and javascript.st
+summary: A blocky clown girl implemented using WEBGL and javascript
 tags:
   - Demo
 date: "2022-10-27T00:00:00Z"
@@ -12,3 +12,5 @@ image:
   caption: Hmm... What happens when she PANICS?
   focal_point: Smart
 ---
+
+https://canvas.ucsc.edu/courses/72715/pages/hall-of-fame

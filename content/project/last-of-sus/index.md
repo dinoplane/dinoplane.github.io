@@ -2,6 +2,7 @@
 title: Last of Sus
 summary: A simulation of a fungal zombie apocalypse in Unity; utilizes behavior trees, boiding, AI pathing, and L-systems
 tags:
+  - Featured
   - Game
 date: "2024-06-24T00:00:00Z"
 
@@ -11,7 +12,7 @@ date: "2024-06-24T00:00:00Z"
 
 
 image:
-  caption: You only have 60 seconds to harvest...
+  caption: Run while you still can...
   focal_point: Smart
 
 links:
