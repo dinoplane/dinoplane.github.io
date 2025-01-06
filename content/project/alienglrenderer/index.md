@@ -5,11 +5,6 @@ date = "2024-08-01T00:00:00Z"
 type = "gallery"
 +++
 
+Github link: [https://github.com/dinoplane/gl_alien_renderer](https://github.com/dinoplane/gl_alien_renderer)
 
-summary: Throughout my undergraduate career, I've been saying that I wanted to multithread something in games. Again, hello world, MULTITHREADING BOIDS! And among other things
-tags:
-  - Featured
-  - Demo
-
-image:
-  focal_point: Smart
+My graduate capstone project, for implementation details, please read [my capstone report.](./CapstoneReport.pdf)
