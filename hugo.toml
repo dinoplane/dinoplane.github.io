@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://dinoplane.github.io/"
 title = "arrian-chi"
 theme = "hugo-theme-console"
 languageCode = "en-us"
