@@ -4,16 +4,18 @@
 <div class="image-grid">
     {{ range sort .Data.Pages "Date" "desc" }}
         {{ if and (isset .Params "image") .Params.image }}
-            <a href="{{ .Permalink }}" title="{{ .Title }}">
-            {{ $image := .Page.Resources.GetMatch .Params.image }}
-            {{ with $image }}
-                {{ $thumb := .Crop "400x400 " }}
-                <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
-                
-                
-            {{end}}
-            {{.Title}}
-            </a>
+            {{ if and (isset .Params "external_link") .Params.external_link }}
+                <a href="{{ .Params.external_link }}" title="{{ .Title }}>">
+            {{ else }}
+                <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ end }}
+                {{ $image := .Page.Resources.GetMatch .Params.image }}
+                {{ with $image }}
+                    {{ $thumb := .Resize "400x" }}
+                    <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+                {{end}}
+                {{.Title}}
+                </a>
         {{ end }}
     {{ end }}
 </div>

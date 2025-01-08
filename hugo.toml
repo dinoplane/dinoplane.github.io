@@ -1,5 +1,5 @@
 baseurl = "https://example.com/"
-title = "console-demo"
+title = "arrian-chi"
 theme = "hugo-theme-console"
 languageCode = "en-us"
 
@@ -12,8 +12,8 @@ languageCode = "en-us"
   animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "about/"
-  url = "about/"
+  name = "home/"
+  url = "/"
 
   [[params.navlinks]]
   name = "posts/"

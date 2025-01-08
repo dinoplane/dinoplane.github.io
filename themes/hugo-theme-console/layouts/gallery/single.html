@@ -1,7 +1,18 @@
 {{ define "main" }}
 <h1>{{ .Page.Title }}</h1>
 
-{{ if and (isset .Params "image") .Params.image }}
+{{ if and (isset .Params "github") .Params.github }}
+       Github link: <a href="{{ .Params.github}}">View on GitHub</a> 
+       <br/><br/>
+{{ end }}
+
+{{ if and (isset .Params "report") .Params.report }}
+      Report link: <a href="{{ .Params.report}}">View PDF</a> 
+    <br/><br/>
+{{ end }}
+
+
+{{ if and (isset .Params "image") .Params.image (isset .Params "use_featured")}}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
         {{ $thumb := .Resize "1000x" }}

@@ -1,31 +1,18 @@
 +++
-image = "featured.png"
+image = "thumb.png"
 title = "60 Second Alchemist"
 date = "2023-03-24T00:00:00Z"
 type = "gallery"
 +++
-summary: With a group of 9 game design students, we developed a prototype of a 3D platformer in Unity. Play as Hazel who must harvest ingredients and brew potions for customers to make a living.
-tags:
-  - Game
-
-# Optional external URL for project (replaces project detail page).
-# external_link: https://geminiduality.itch.io/60-second-alchemist
-
-
-
-image:
-  caption: You only have 60 seconds to harvest...
-  focal_point: Smart
-
-
-
 Link to the project here! https://geminiduality.itch.io/60-second-alchemist
 
+
+With a group of 9 game design students, we developed a prototype of a 3D platformer in Unity. Play as Hazel who must harvest ingredients and brew potions for customers to make a living.
 
 
 *Note: I am writing this so I can recap what I did on this project. Take this as a sort of post-mortem perhaps.*
 
-STILL UNDER CONSTRUCTION! But read on.
+STILL UNDER CONSTRUCTION (highkey abandoned lmao)! But read on.
 
 60 Second Alchemist is a crafting 3D platformer where players collect ingredients and craft potions to sell to customers. Play as Hazel, an apprentice witch, who must deal with the arduious task of growing up and making money to pay off her never-ending cost of living. Receive potion orders from customers, strategize what ingredients to collect, and make the purest potion imaginable to maximize your profit!
 

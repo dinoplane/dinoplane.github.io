@@ -1,16 +1,8 @@
 +++
-image = "featured.png"
+image = "thumb.gif"
 date = "2022-06-27"
 title = "Blood Thirst"
 type = "gallery"
+github = "https://github.com/dinoplane/p4-flocking-starter"
 +++
-summary: A simulation of bats. Behaviors implemented include flocking, starvation, homing, and death.
-tags:
-  - Demo
-
-# Optional external URL for project (replaces project detail page).
-external_link: https://github.com/dinoplane/p4-flocking-starter
-
-image:
-  caption: It's Morbin Time
-  focal_point: Smart
+A simulation of bats. Behaviors implemented include flocking, starvation, homing, and death.

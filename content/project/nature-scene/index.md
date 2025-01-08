@@ -1,19 +1,15 @@
 +++
-image = "featured.png"
+image = "featured.gif"
 title = "Nature Scene"
 date = "2024-03-24T00:00:00Z"
 type = "gallery"
+github = "https://github.com/dinoplane/CS174C-NatureScene"
+report = "/uploads/CS269-space-island-report.pdf"
 +++
-summary: A scene of a japanese garden lake with some quirks, implemented with numerous animation algorithms
-tags:
-  - Game
-  - Demo
+{{< video
+  src="scene.mp4"
+  width="800"
+>}}
 
-  caption: Water falls, volcano erupts, tentacles emerge???
-  focal_point: Smart
+A scene of a japanese garden lake with some quirks, implemented with numerous animation algorithms
 
-links:
-url_code: 'https://github.com/dinoplane/CS174C-NatureScene'
-url_pdf: uploads/CS269-space-island-report.pdf
-url_slides: ''
-url_video: ''
