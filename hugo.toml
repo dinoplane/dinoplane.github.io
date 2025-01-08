@@ -1,0 +1,24 @@
+baseurl = "https://dinoplane.github.io/"
+title = "arrian-chi"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "home/"
+  url = "/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  [[params.navlinks]]
+  name = "project/"
+  url = "project/"
