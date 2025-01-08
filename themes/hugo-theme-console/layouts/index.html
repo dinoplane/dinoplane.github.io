@@ -3,9 +3,28 @@
 <h1>About</h1>
 
 <p>
-Console is a minimal, responsive and light theme for Hugo inspired by Linux console.  <a href="about/">(more)</a>
+Hello! I'm Arrian, a software engineer interested in computer graphics and game tools/engines. Scroll down to check out some of my projects!
 </p>
-<br/>
+
+
+
+
+<h1>Latest projects</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/project" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+        {{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "400x" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+        {{end}}
+        </a>
+    {{ end }}
+{{ end }}
+</div>
+
 
 <h1>Latest posts</h1>
 
@@ -19,22 +38,6 @@ Console is a minimal, responsive and light theme for Hugo inspired by Linux cons
                 {{ .Summary }}
             </p>
         </div>    
-    {{ end }}
-{{ end }}
-</div>
-
-<h1>Latest photos</h1>
-
-<div class="image-grid">
-{{ with .Site.GetPage "/project" }}
-    {{ range first 4 (sort .Data.Pages "Date" "desc")}}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
-        {{ $image := .Page.Resources.GetMatch .Params.image }}
-        {{ with $image }}
-            {{ $thumb := .Resize "400x" }}
-            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
-        {{end}}
-        </a>
     {{ end }}
 {{ end }}
 </div>

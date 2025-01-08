@@ -1,7 +1,7 @@
 +++
 image = "featured.gif"
 title = "Last of Sus"
-date = "2024-06-24T00:00:00Z"
+date = "2024-06-25T00:00:00Z"
 type = "gallery"
 report = "/uploads/CS275-last-of-sus-report.pdf"
 +++
